@@ -2,6 +2,7 @@ function keyDownHandler(e) {
     if(e.keyCode == 39) {
         rightPressed = true;
     }
+
     else if(e.keyCode == 37) {
         leftPressed = true;
     }
@@ -11,6 +12,7 @@ function keyUpHandler(e) {
     if(e.keyCode == 39) {
         rightPressed = false;
     }
+
     else if(e.keyCode == 37) {
         leftPressed = false;
     }
@@ -60,14 +62,17 @@ function draw() {
     } else if(y + dy > canvas.height-ballRadius) {
         if(x > paddleX && x < paddleX + paddleWidth) {
             dy = -dy;
-        }
-        else {
+	}
+
+        else 
+	    {
             lives--;
             if(!lives) {
                 alert("GAME OVER");
                 document.location.reload();
             }
-            else {
+            else 
+		{
                 x = canvas.width/2;
                 y = canvas.height-30;
                 dx = 2;
@@ -79,10 +84,11 @@ function draw() {
 
     if(rightPressed && paddleX < canvas.width-paddleWidth) {
         paddleX += 7;
-    }
+    	}
+
     else if(leftPressed && paddleX > 0) {
         paddleX -= 7;
-    }
+    	}
 
     x += dx;
     y += dy;
