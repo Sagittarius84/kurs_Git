@@ -8,7 +8,11 @@ var x = canvas.width/2;
 var y = canvas.height-30;
 var dx = 2;
 var dy = -2;
+<<<<<<< HEAD
 var ballRadius = 16;
+=======
+var ballRadius = 15;
+>>>>>>> make_game_easier
 
 var paddleHeight = 10;
 var paddleWidth = 80;

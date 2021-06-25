@@ -2,19 +2,19 @@ var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");  
 
 var score = 0;
-var lives = 4;
+var lives = 3;
 
 var x = canvas.width/2;
 var y = canvas.height-30;
 var dx = 2;
 var dy = -2;
-var ballRadius = 16;
+var ballRadius = 10;
 
 var paddleHeight = 10;
-var paddleWidth = 80;
+var paddleWidth = 75;
 var paddleX = (canvas.width-paddleWidth)/2;
 
-var brickRowCount = 4;
+var brickRowCount = 3;
 var brickColumnCount = 5;
 var brickWidth = 75;
 var brickHeight = 20;
