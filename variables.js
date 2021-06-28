@@ -11,7 +11,7 @@ var dy = -2;
 var ballRadius = 16;
 
 var paddleHeight = 10;
-var paddleWidth = 80;
+var paddleWidth = 85;
 var paddleX = (canvas.width-paddleWidth)/2;
 
 var brickRowCount = 4;
