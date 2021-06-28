@@ -1,5 +1,5 @@
 function drawLives() {
-    ctx.font = "16px Arial";
+    ctx.font = "17px Arial";
     ctx.fillStyle = "#0095DD";
     ctx.fillText("Lives: "+lives, canvas.width-65, 20);
 }
