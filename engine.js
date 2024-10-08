@@ -98,4 +98,4 @@ function draw() {
 
 document.addEventListener("mousemove", mouseMoveHandler, false);
 document.addEventListener("keydown", keyDownHandler, true);
-document.addEventListener("keyup", keyUpHandler, true);
+document.addEventListener("keyup", keyUpHandler, false);
