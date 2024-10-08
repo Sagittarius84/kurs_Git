@@ -97,5 +97,5 @@ function draw() {
 }
 
 document.addEventListener("mousemove", mouseMoveHandler, false);
-document.addEventListener("keydown", keyDownHandler, false);
+document.addEventListener("keydown", keyDownHandler, true);
 document.addEventListener("keyup", keyUpHandler, true);
